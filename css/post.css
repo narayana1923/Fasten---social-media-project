@@ -1,0 +1,58 @@
+.thumbnail{
+    margin-top: 23%;
+    border-radius:5%;
+    
+}
+.post{
+    padding-top: 10%;
+    padding-bottom: 20%;
+    text-align:justify;
+    background-color: white;
+    padding-left: 8%;
+}
+body{
+    background: linear-gradient(-45deg,white, #bee6f2,#2eb9eb, #7ea6eb, #436aed);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+.textarea{
+    
+    height: 20%;
+    font-size: medium;
+}
+.btn1{
+    margin-top: 10%;
+    font-size: medium;
+}
+input[type=file]::-webkit-file-upload-button {
+    background-color: #81ecec;
+    border: 2px solid #00cec9;
+    cursor: pointer;  
+    display: none;
+  }
+  .upload{
+      margin-top: 0%;
+      border: 1px solid #c1bebe;
+      border-radius: 3%;
+      padding: auto;
+      margin-bottom: 3%;
+  }
+  .types{
+
+      margin-bottom:0;
+  }
+  .list-group-item{
+      
+  }

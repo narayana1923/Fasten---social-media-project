@@ -1,0 +1,62 @@
+p:hover,
+a:hover {
+  background-color: silver;
+}
+table {
+  font-family: arial;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid silver;
+  text-align: left;
+  padding: 12px;
+}
+
+table,
+th,
+td {
+  border-left: none;
+  border-right: none;
+}
+
+footer {
+  text-align: center;
+  padding: 1px;
+  background-color: rgb(14, 13, 12);
+  color: white;
+  line-height: 5px;
+}
+
+#footer ul {
+  text-align: left;
+}
+#footer li {
+  list-style-type: none;
+  display: inline-block;
+  color: #e2caca;
+  padding-top: 5px;
+}
+.footer {
+  position: absolute;
+  left: -20px;
+  padding-top: 0px;
+  bottom: 10px;
+  width: 100%;
+  background-color: white;
+  color: rgb(104, 95, 240);
+  text-align: left;
+  line-height: 25px;
+}
+.container {
+  position: relative;
+}
+
+.bottomright {
+  position: absolute;
+  bottom: 20px;
+  right: 30px;
+  font-size: 50px;
+}
